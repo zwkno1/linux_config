@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ---------------- vim --------------
+# vim 
 git submodule init
 git submodule update
 
@@ -11,15 +11,19 @@ mkdir -p ~/.vim/plugin
 cp -rf vundle ~/.vim/bundle/vundle 
 cp a.vim/plugin/a.vim ~/.vim/plugin/
 cp wmgraphviz.vim/ftplugin/dot.vim ~/.vim/plugin
-# ---------------- vim --------------
+echo "next: install vim YCM"
 
-# ---------------- screen  --------------
+# git 
+cp .gitconfig ~/
+
+# screen  
 cp .screenrc ~/
-# ---------------- screen  --------------
 
 
-# ---------------- config ----------------
+# fcitx
 cp .xprofile ~/
+
+# alsa
 cp .asoundrc ~/
-# ---------------- config ----------------
+
 

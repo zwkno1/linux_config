@@ -1,0 +1,10 @@
+[user]
+	email = zwkno1@gmail.com
+	name = zwkno1
+[https]
+	proxy = http://127.0.0.1:8087
+[http]
+	proxy = http://127.0.0.1:8087
+	sslVerify = false
+[credential]
+	helper = store
