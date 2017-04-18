@@ -1,0 +1,12 @@
+[submodule "a"]
+	path = a
+	url = https://github.com/vim-scripts/a.vim
+[submodule "a.vim"]
+	path = a.vim
+	url = https://github.com/vim-scripts/a.vim
+[submodule "wmgraphviz.vim"]
+	path = wmgraphviz.vim
+	url = https://github.com/wannesm/wmgraphviz.vim
+[submodule "vundle"]
+	path = vundle
+	url = https://github.com/gmarik/vundle.git
